@@ -282,10 +282,6 @@ main {
   margin-left: 0.25rem;
 }
 
-.challenge-item-details.expanded .challenge-item-details-icon {
-  transform: rotate(180deg);
-}
-
 .challenge-item-description {
   margin: 0;
 }
@@ -313,7 +309,6 @@ main {
   width: 30rem;
   max-width: 90%;
   z-index: 10;
-  animation: slide-up-fade-in 0.5s forwards;
 }
 
 @keyframes slide-up-fade-in {
